@@ -1,0 +1,49 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+body {
+    margin: 0;
+  }
+
+table, td {
+    border: 1px solid black;
+  }
+
+td {
+    padding: 1.5rem;
+  }
+
+a {
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    margin-left: 330px;
+}
+
+h1{
+    margin-left:500px;
+}
+
+button{
+    display: block;
+    margin-left: 535px;
+    margin-top: 30px;
+	background-color:  rgb(2, 2, 2);
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	transition: .3s ease all;
+}
+
+button:hover{
+    background-color: rgb(46, 45, 44);
+    transition: .3s ease all;
+}
